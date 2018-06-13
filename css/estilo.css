@@ -1,0 +1,34 @@
+body{
+	background-image: url(../img/background-05.jpg);
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Esta classe redimensiona a logo quando estiver em telas menores */
+.imagem{
+	display: flex;
+	align-self: auto;
+
+}
+
+p.indent{
+	text-indent: 40px;
+}
+
+@font-face {
+    font-family: Amazing;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/The\ Amazing\ Spider-Man.ttf);
+}
+
+@font-face {
+    font-family: Base ;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/Base\ 02.ttf);
+}
